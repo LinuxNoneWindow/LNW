@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<HTML>
+
+    <HEAD>
+      <meta charset="UTF-8">
+
+    <script language="JavaScript"></script>
+        <SCRIPT LANGUAGE="JavaScript">
+        function koll() {
+          var ant=0;
+          if (document.frageForm.fraga1[2].checked) ant=ant+1;
+          if (document.frageForm.fraga2[1].checked) ant=ant+1; 
+          if (document.frageForm.fraga3[1].checked) ant=ant+1;
+          if (document.frageForm.fraga4[1].checked) ant=ant+1;
+          if (document.frageForm.fraga5[2].checked) ant=ant+1;
+          if (document.frageForm.fraga6[0].checked) ant=ant+1;
+          if (ant <6) alert("Du har "+ant+" rätt.") 
+          else alert("Du har "+ant+" korrekta svar. Nice!");
+        }
+      </SCRIPT>
+
+    <TITLE>Hamze's Sida</title>
+        
+    <BODY background="bckgrnd2.png">
+    <!---Header--->
+        <table border="0" width="100%" cellspacing="0" bgcolor="#21F7CC">
+        <tr><td>
+        <table border="0" align="CENTER" width="100%" cellpadding="10">
+            <tr>
+                <td><font face="Candara" size="6" color="White"><b><a href="index.html" style="color: #FFFF; text-decoration: none;">Hamze's Sida</a></b></font></td>
+
+                <td width="55%"></td>
+
+                <td><a href="index.html" rel="noopener noreferrer"><font face="Candara" color="BLACK">Hem</font></a></td>
+                <td><a href="https://www.instagram.com/mctitty_/" target="_blank" rel="noopener noreferrer"><font face="Candara" color="BLACK">Insta</font></a></td>
+                <td><a href="Quiz.html" rel="noopener noreferrer"><font face="Candara" color="BLACK">Quiz</font></a></td>
+                <td><a href="Om.html" rel="noopener noreferrer"><font face="Candara" color="BLACK">Om</font></a></td>
+            </tr>
+        </table>
+        </td></tr>
+        </table>
+
+            <!---Header slut-->
+            <!--Home-->
+        <table border="0" align="CENTER" width="100%">
+        <tr><td>
+        
+            <FORM NAME="frageForm" align="CENTER">
+                <H1><font face="Candara" size="7">Quiz Time!</font></H1>
+                <p>
+                <h1><font face="Candara" size="5">Q.1 Hur många tidzoner har Ryssland?</font></h1>
+                <p>
+                  <INPUT TYPE="radio" NAME="fraga1" ><font face="Candara" size="4">6</font></>
+                  <INPUT TYPE="radio" NAME="fraga1"><font face="Candara" size="4">4</font></>
+                  <INPUT TYPE="radio" NAME="fraga1"><font face="Candara" size="4">11</font></>
+                <P>      
+                      <h1><font face="Candara" size="5">Q.2 Vilka två uppfann M&M?</font></h1>
+                <p>
+                  <INPUT TYPE="radio" NAME="fraga2"><font face="Candara" size="4">Donald Mark & Jacob Mason</font></>
+                  <INPUT TYPE="radio" NAME="fraga2"><font face="Candara" size="4">Forrest Mars & Bruce Marrie</font></>
+                  <INPUT TYPE="radio" NAME="fraga2"><font face="Candara" size="4">Bruce Marrie & Mars Mayson </font></>
+                <P>
+                      <h1><font face="Candara" size="5">Q.3 Vem uppfann Algebra och kallas "Father of Algebra"?</font></h1>
+                <p>
+                  <INPUT TYPE="radio" NAME="fraga3"><font face="Candara" size="4">Walid Ibn Dawuud</>
+                  <INPUT TYPE="radio" NAME="fraga3"><font face="Candara" size="4">Muhammad Ibn Musa</>
+                  <INPUT TYPE="radio" NAME="fraga3"><font face="Candara" size="4">Arkimedes</>
+                <P>
+                      <h1><font face="Candara" size="5">Q.4 Vad kallas kråkflock på engelska?</font></h1>
+                <p>
+                  <INPUT TYPE="radio" NAME="fraga4" ><font face="Candara" size="4">Crews</font></>
+                  <INPUT TYPE="radio" NAME="fraga4" ><font face="Candara" size="4">Murder of crows</font></>
+                  <INPUT TYPE="radio" NAME="fraga4" ><font face="Candara" size="4">Harassment of crows</font></>
+                <P>
+                      <h1><font face="Candara" size="5">Q.5 Vilken land har rosa som toalettpapper</font></h1>
+                <p>
+                  <INPUT TYPE="radio" NAME="fraga5"><font face="Candara" size="4">Nederländerna</font></>
+                  <INPUT TYPE="radio" NAME="fraga5"><font face="Candara" size="4">Vietnam</font></>
+                  <INPUT TYPE="radio" NAME="fraga5"><font face="Candara" size="4">Frankrike</font></>
+                <P> 
+                      <h1><font face="Candara" size="5">Q.6 Hur många hjärtor har bläckfiskar?</font></h1>
+                <p>
+                  <INPUT TYPE="radio" NAME="fraga6" ><font face="Candara" size="4">3</font></>
+                  <INPUT TYPE="radio" NAME="fraga6" ><font face="Candara" size="4">1</font></>
+                  <INPUT TYPE="radio" NAME="fraga6" ><font face="Candara" size="4">2</font></>
+                <P>
+                <INPUT TYPE="submit" value="Kontrollera Svar" onClick="koll();">
+            </FORM>
+        </td></tr>
+        </table>
+        </td></tr>
+        <!--Home end-->
+    </BODY>
+</HTML> 
